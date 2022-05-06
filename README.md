@@ -4,7 +4,7 @@
                     SISTEMA DE PROCESAMIENTO DE DATOS
                                         
 INTEGRANTES
-===========
+
 - Castello Thiago
 - Forni Gonzalo
 - Gatti Ignacio Pablo
