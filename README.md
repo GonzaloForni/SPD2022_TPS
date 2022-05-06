@@ -1,4 +1,4 @@
-# -TRABAJOS PRACTICOS-
+# Grupo "Los Pollos Hermanos"
 ===========================================================================
  UTN FRA - 2022
                     SISTEMA DE PROCESAMIENTO DE DATOS
