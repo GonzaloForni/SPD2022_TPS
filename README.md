@@ -4,14 +4,14 @@
 Grupo "Los Pollos Hermanos"
 =
 
---> INTEGRANTES:
+### INTEGRANTES:
 - Castello Thiago
 - Forni Gonzalo
 - Gatti Ignacio Pablo
 - Heredia Facundo
 
 
-#### TRABAJOS PRACTICOS
+### TRABAJOS PRACTICOS
 ==================
 Trabajo Practico N°1: Cronómetro Binario
 
