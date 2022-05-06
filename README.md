@@ -4,8 +4,7 @@
 Grupo "Los Pollos Hermanos"
 =
 
-INTEGRANTES
-=
+--> INTEGRANTES:
 - Castello Thiago
 - Forni Gonzalo
 - Gatti Ignacio Pablo
