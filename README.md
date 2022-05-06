@@ -1,7 +1,7 @@
 # SPD2022_TPS
-=============================================================================================
- UTN FRA                              -TRABAJOS PRACTICOS-                                  2022
-                                SISTEMA DE PROCESAMIENTO DE DATOS
+===========================================================================
+ UTN FRA                   -TRABAJOS PRACTICOS-                        2022
+                      SISTEMA DE PROCESAMIENTO DE DATOS
                                         
 
 INTEGRANTES
