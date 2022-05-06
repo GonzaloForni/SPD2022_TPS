@@ -13,7 +13,5 @@ INTEGRANTES
 TRABAJOS PRACTICOS
 ==================
 - Trabajo Practico N°1: Cronómetro Binario
-
-
---> Link Tinkercad: 
+---> Link Tinkercad:
 ========================================================================
