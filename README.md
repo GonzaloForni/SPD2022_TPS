@@ -1,10 +1,11 @@
-# Grupo "Los Pollos Hermanos"
+# SISTEMA DE PROCESAMIENTO DE DATOS
 ===========================================================================
  UTN FRA - 2022
-                    SISTEMA DE PROCESAMIENTO DE DATOS
-                                        
-INTEGRANTES
-===========
+                    
+Grupo "Los Pollos Hermanos"
+=
+ INTEGRANTES
+<===========>
 - Castello Thiago
 - Forni Gonzalo
 - Gatti Ignacio Pablo
