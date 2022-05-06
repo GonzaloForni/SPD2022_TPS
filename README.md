@@ -12,7 +12,6 @@ Grupo "Los Pollos Hermanos"
 
 
 ### TRABAJOS PRACTICOS
-==================
 Trabajo Practico N°1: Cronómetro Binario
 
 -> Link Tinkercad: 
