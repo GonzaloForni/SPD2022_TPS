@@ -1,9 +1,8 @@
 # SPD2022_TPS
 ===========================================================================
  UTN FRA                  -TRABAJOS PRACTICOS-                        2022
-                     SISTEMA DE PROCESAMIENTO DE DATOS
+                    SISTEMA DE PROCESAMIENTO DE DATOS
                                         
-
 INTEGRANTES
 ===========
 - Castello Thiago
@@ -15,4 +14,4 @@ TRABAJOS PRACTICOS
 ==================
 - Trabajo Practico N°1: Cronómetro Binario
 --> Link Tinkercad: 
-===========================================================================
+========================================================================
