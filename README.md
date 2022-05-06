@@ -14,6 +14,6 @@ Grupo "Los Pollos Hermanos"
 ### TRABAJOS PRACTICOS
 Trabajo Practico N°1: Cronómetro Binario
 
--> Link Tinkercad: https://www.tinkercad.com/things/gcWDJF2xLUa-tp1-final/editel?sharecode=D5oPaVMWf88PiLe2aVBKTCrl2xBWml6NYhoKzpGMlDs
+-> Link Tinkercad: https://www.tinkercad.com/things/gcWDJF2xLUa
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
