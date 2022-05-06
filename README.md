@@ -1,4 +1,4 @@
-# ---------SISTEMA DE PROCESAMIENTO DE DATOS---------
+# --------SISTEMA DE PROCESAMIENTO DE DATOS--------
 ===========================================================================  
 
 Grupo "Los Pollos Hermanos"
