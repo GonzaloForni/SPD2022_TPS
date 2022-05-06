@@ -11,7 +11,7 @@ Grupo "Los Pollos Hermanos"
 - Heredia Facundo
 
 
-TRABAJOS PRACTICOS
+#### TRABAJOS PRACTICOS
 ==================
 Trabajo Practico N°1: Cronómetro Binario
 
