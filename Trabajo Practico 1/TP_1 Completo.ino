@@ -30,8 +30,7 @@ todo el código para evitar repetir lineas lo mas posible.
 - Usar millis para controlar el tiempo del contador para que el cambio de los leds encendidos 
 sea perceptible para el ojo humano y documentar cada función creada en el código. 
 - Un breve comentario que diga que es lo que hace esa función y de corresponder, que retorna).
-================================================================================================
-*/
+================================================================================================*/
 
 //  =========
 //  > DEFINES
@@ -72,6 +71,7 @@ void setup()
     Recorrer_Pins();                                      // Funcion que recorre los pins
     Inicializar_Vector(arrayEnteros, TAM);                // Funcion que inicializa vector binario
     Inicializar_Vector_Leds (arrayLeds, TAM, FIRST_LED);  // Funcion que inicializa vector de leds
+	imprimirHomero();
 }
 
 //  ======
@@ -81,8 +81,22 @@ void loop()
 {   
     Pausar_Boton (BUTTON_START);    // Funcion boton pausa    
     Resetear_Boton (BUTTON_RESET);  // Funcion boton restart
-     	
-    tiempo = millis();  // Declaracion millis
+    secuencia_millis();	
+       
+    delay(10);      
+}
+//  ==================
+//  > FIN DEL PROGRAMA
+//  ==================
+
+//  ===========
+//  > FUNCIONES
+//  ===========
+
+/// @brief Funcion que realiza la secuencia del programa
+void secuencia_millis()
+{
+  tiempo = millis();  // Declaracion millis
   	if(tiempo >= (tiempo1 + diferencia1) && flag == 1 ) // Condicional millis
     {
         if(contador <= MAX_SECONDS) //Contador
@@ -90,31 +104,17 @@ void loop()
             Transformar_Decimal_A_Binario_Recursivo(contador, arrayEnteros, TAM);               // Funcion que permite mediante recursividad transformar un decimal a un binario
             Prender_Led_Segun_Binario (arrayEnteros, TAM, arrayLeds, LED_PRENDIDO, LED_APAGADO);// Funcion que toma valor del array de binario y enciende los leds
             
-         	sistemclear();
-            //Serial.println("|  DECIMAL   |   BINARIO	 |");
           	Serial.print ("| SEGUNDO: ");
-          	Serial.print((String)"[" + contador + "] --> ");
-            //Serial.print(contador);             // Imprimir numero decimal
-            //Serial.print(" | ");
-            //Serial.print("Binario: ");
+          	Serial.print((String)"[" + contador + "] --> "); // Imprimir numero decimal
             Serial.print ("[");          
             Mostrar_Vector (arrayEnteros, TAM); // Imprimir numero binario
             Serial.println ("]");
             contador++;     // Actualizar contador      	
         }
       	tiempo1 = tiempo;   // Actualizacion tiempo1 de millis
-    }   
-    delay(10);      
+    }
 }
-//  ==================
-//  > FIN DEL PROGRAMA
-//  ==================
 
-
-
-//  ===========
-//  > FUNCIONES
-//  ===========
 /// @brief Funcion para recorrer los pins y habilitarlos segun entrada o salida
 void Recorrer_Pins()
 {
@@ -258,13 +258,8 @@ void Mostrar_Vector (int vector[], int longitudVector)
   {
     Serial.print(vector[i]);
   }
-  imprimirHomero();
-  //Serial.println();
 }
 //--------------------------------------------------------------------------------//
-
-
-
 
 //IMPRIMIR HOMERO
 void imprimirHomero()
@@ -292,9 +287,4 @@ void imprimirHomero()
   Serial.println(" _/  `-._  /  \ |--´  (     \"");
   Serial.println("'  `-.   `'    \/\`.   `.    )"); 
   Serial.println("      \           \ `.  |    |"); 
-}
-
-void sistemclear()
-{
-  Serial.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 }
