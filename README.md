@@ -18,6 +18,6 @@ Grupo "Los Pollos Hermanos"
 
 - Trabajo Practico N°2: Sistema de cerradura inteligente con codigo
 
-  -> Link Tinkercad: 
+  -> Link Tinkercad: https://www.tinkercad.com/things/0xB2gM6R9Um
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
